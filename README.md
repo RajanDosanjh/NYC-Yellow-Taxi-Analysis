@@ -30,7 +30,12 @@ The notebook replicates common **Databricks-style workflows** but runs locally i
 ---
 
 ## Dataset
-The dataset comes from the [NYC Taxi & Limousine Commission (TLC)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).  
+The dataset comes from NYC_YellowTripTaxi on Kaggle (https://www.kaggle.com/code/elemento/nyc-yellowtriptaxi/data).  
 For this project, we use **January 2015 Yellow Taxi Trip Data**.
+
+-- Important --- 
+1. dowload the dataset and place the file in the same directory as  NYV_BigData_Analysis.ipynb
+2. change .load("yellow_tripdata_2015-01.csv") to the name and year of the yellow_tripdata being used
+
 
 Place the CSV in the same folder as the notebook and name it:
